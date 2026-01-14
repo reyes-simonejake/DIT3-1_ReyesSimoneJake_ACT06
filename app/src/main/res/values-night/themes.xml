@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme - Dark Mode -->
+    <style name="Base.Theme.APIConnectApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorPrimaryVariant">@color/primary_light</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        
+        <!-- Accent color -->
+        <item name="colorAccent">@color/accent</item>
+        
+        <!-- Background and surface -->
+        <item name="android:colorBackground">@color/background_start</item>
+        <item name="colorSurface">@color/surface</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/background_start</item>
+        <item name="android:navigationBarColor">@color/background_end</item>
+    </style>
+</resources>

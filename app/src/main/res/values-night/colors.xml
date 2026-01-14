@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors - Modern Blue Gradient -->
+    <color name="primary">#818CF8</color>
+    <color name="primary_dark">#6366F1</color>
+    <color name="primary_light">#A5B4FC</color>
+    
+    <!-- Secondary Colors - Vibrant Purple -->
+    <color name="secondary">#C084FC</color>
+    <color name="secondary_dark">#A855F7</color>
+    <color name="secondary_light">#D8B4FE</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent">#F472B6</color>
+    <color name="accent_light">#F9A8D4</color>
+    
+    <!-- Background Colors - Dark Mode -->
+    <color name="background_start">#0F172A</color>
+    <color name="background_end">#1E293B</color>
+    <color name="card_background">#1E293B</color>
+    <color name="surface">#1E293B</color>
+    
+    <!-- Text Colors - Dark Mode -->
+    <color name="text_primary">#F1F5F9</color>
+    <color name="text_secondary">#94A3B8</color>
+    <color name="text_hint">#64748B</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#34D399</color>
+    <color name="warning">#FBBF24</color>
+    <color name="error">#F87171</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#6366F1</color>
+    <color name="gradient_middle">#8B5CF6</color>
+    <color name="gradient_end">#A855F7</color>
+    
+    <!-- Basic Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Shimmer Effect -->
+    <color name="shimmer_base">#334155</color>
+    <color name="shimmer_highlight">#475569</color>
+    
+    <!-- Shadow/Overlay -->
+    <color name="shadow">#40000000</color>
+    <color name="overlay">#B0000000</color>
+</resources>

@@ -1,0 +1,81 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.APIConnectApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorPrimaryVariant">@color/primary_light</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        
+        <!-- Accent color -->
+        <item name="colorAccent">@color/accent</item>
+        
+        <!-- Background and surface -->
+        <item name="android:colorBackground">@color/background_start</item>
+        <item name="colorSurface">@color/surface</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/background_end</item>
+        
+        <!-- Window animations -->
+        <item name="android:windowAnimationStyle">@style/WindowAnimations</item>
+    </style>
+
+    <style name="Theme.APIConnectApp" parent="Base.Theme.APIConnectApp" />
+    
+    <!-- Window animations -->
+    <style name="WindowAnimations">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_in</item>
+    </style>
+    
+    <!-- Custom Button Style -->
+    <style name="GradientButton">
+        <item name="android:background">@drawable/button_gradient</item>
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    
+    <!-- Custom EditText Style -->
+    <style name="StyledEditText">
+        <item name="android:background">@drawable/edittext_background</item>
+        <item name="android:textColor">#1E293B</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    
+    <!-- Card Style -->
+    <style name="CardStyle">
+        <item name="android:background">@drawable/card_background</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:padding">20dp</item>
+    </style>
+    
+    <!-- Title Text Style -->
+    <style name="TitleText">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <!-- Subtitle Text Style -->
+    <style name="SubtitleText">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>
